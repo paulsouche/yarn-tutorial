@@ -5,3 +5,9 @@ This repository is a tutorial about `yarn`. Feel free to checkout the step branc
 ## Bootstrap a project
 
 `yarn init`
+
+## Add dependencies
+
+`yarn add colors`
+
+`yarn add -D typescript ts-node`
