@@ -57,3 +57,41 @@ This repository is a tutorial about `yarn`. Feel free to checkout the step branc
 `yarn bin` outputs the resolved `.bin folder`
 
 `yarn node` runs node command with the same version than yarn
+
+## Administrate
+
+### Admin commands
+
+`yarn global [add|remove|list|bin]` administrate global packages
+
+`yarn cache [list|clean|dir]` administrate cache
+
+`yarn config` same than `npm config`
+
+### Registry commands
+
+`yarn login` logs in the yarn registry `--registry` to specify an other registry
+
+`yarn logout` logs out of the registry
+
+`yarn publish` publish the package
+
+`yarn team`, `yarn owner`, `yarn tag` manage the registry users & versions
+
+### Package commands
+
+`yarn create` fetch a `create-*` boilerplate and inits a project
+
+`yarn pack` create the package tarball locally (very usefull to see what is going to be published)
+
+`yarn link` create a symbolic link between the package and the node_modules of the project that consumes it
+
+`yarn unlink` destroy the symbolic link
+
+`yarn version` change the package version
+
+`yarn autoclean` clean dependencies
+
+`yarn generate-lock-entry` generates the lock hash for the package
+
+`yarn import` generates `yarn.lock` from `package-lock.json`
