@@ -4,11 +4,14 @@
   "main": "dist/index.js",
   "author": "paulsouche<paul.souche@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
   "dependencies": {
     "colors": "^1.3.0"
   },
   "devDependencies": {
-    "ts-node": "^7.0.0",
+    "ts-node": "^8.4.1",
     "typescript": "^3.6.3"
   }
 }

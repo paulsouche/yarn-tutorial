@@ -47,3 +47,13 @@ This repository is a tutorial about `yarn`. Feel free to checkout the step branc
 `yarn upgrade` or `yarn upgrade <package>` update the dependency following package.json
 
 `yarn upgrade-interactive` updates a list of dependencies
+
+## Run scripts
+
+`yarn start` executes the start script `yarn run start` also
+
+`yarn ts-node` execcutes the ts-node command
+
+`yarn bin` outputs the resolved `.bin folder`
+
+`yarn node` runs node command with the same version than yarn
