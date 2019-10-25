@@ -1,0 +1,10 @@
+{
+  "name": "yarn-workspaces",
+  "version": "1.0.0",
+  "author": "paulsouche<paul.souche@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

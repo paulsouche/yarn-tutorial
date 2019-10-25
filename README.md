@@ -95,3 +95,11 @@ This repository is a tutorial about `yarn`. Feel free to checkout the step branc
 `yarn generate-lock-entry` generates the lock hash for the package
 
 `yarn import` generates `yarn.lock` from `package-lock.json`
+
+## Manage a workspace
+
+`yarn workspace <package> <command>` executes `<command>` in `<package>`
+
+`yarn workspaces info` outputs workspace description. Add `--json` flag for json output
+
+`yarn workspaces run <command>` executes `<command>` in each workspace package. Limitations are `<command>` must exists in each `<package>` and commands are run sequentially with no dependency order

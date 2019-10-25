@@ -1,0 +1,19 @@
+{
+  "name": "yarn-workspaces-hello",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "paulsouche<paul.souche@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  }
+}
